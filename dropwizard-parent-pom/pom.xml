@@ -124,34 +124,6 @@
             <url>s3://com.vpaapi/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
-    <repositories>
-        <repository>
-            <id>releases</id>
-            <url>s3://com.vpaapi/releases</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>fail</checksumPolicy>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>releases</id>
-            <url>s3://com.vpaapi/releases</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>fail</checksumPolicy>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
 
     <build>
         <extensions>
