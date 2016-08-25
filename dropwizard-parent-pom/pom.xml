@@ -4,9 +4,26 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vpaapi</groupId>
-    <artifactId>root</artifactId>
+    <artifactId>dropwizard-parent-pom</artifactId>
     <version>0.0.1</version>
     <packaging>pom</packaging>
+
+    <name>${project.groupId}${project.artifactId}</name>
+    <description>VPA Parent Dropwizard pom</description>
+
+    <developers>
+        <developer>
+            <name>Vantage Point Analytics</name>
+            <email>eng@vantagepointanalytics.com</email>
+            <organizationUrl>https://www.vantagepointanalytics.com/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:Vantage-Point-Analytics/parent-poms.git</connection>
+        <developerConnection>scm:git:git@github.com:Vantage-Point-Analytics/parent-poms.git</developerConnection>
+        <url>git:git@github.com:Vantage-Point-Analytics/parent-poms.git</url>
+    </scm>
 
     <properties>
         <!-- internal project versions, use these in dependencies to automatically get latest version (not always
@@ -114,6 +131,7 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- Upload packaged project JARs to private s3 buckets -->
     <distributionManagement>
         <repository>
             <id>releases</id>
