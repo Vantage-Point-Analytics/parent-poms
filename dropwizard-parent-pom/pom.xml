@@ -10,6 +10,7 @@
 
     <name>${project.groupId}${project.artifactId}</name>
     <description>VPA Parent Dropwizard pom</description>
+    <url>https://github.com/Vantage-Point-Analytics</url>
 
     <developers>
         <developer>
