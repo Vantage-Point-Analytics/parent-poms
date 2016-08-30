@@ -40,3 +40,5 @@ dependency-reduced-pom.xml
 
 #versions backup poms
 *.versionsBackup
+
+*.asc
