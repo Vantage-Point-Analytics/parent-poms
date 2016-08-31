@@ -164,6 +164,7 @@
     <build>
         <plugins>
             <plugin>
+                <inherited>false</inherited>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <version>1.6.7</version>
@@ -175,6 +176,7 @@
                 </configuration>
             </plugin>
             <plugin>
+                <inherited>false</inherited>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.6</version>
