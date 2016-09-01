@@ -55,7 +55,40 @@
 
     <!-- Base VPA dependencies, common to all vpa microservices -->
     <dependencyManagement>
+
         <dependencies>
+            <!-- Non transitive service dependencies, used for upversioning services in properties via versions:properties -->
+            <dependency>
+                <groupId>com.vpaapi.docent</groupId>
+                <artifactId>parent</artifactId>
+                <version>${docent.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.vpaapi.bouncer</groupId>
+                <artifactId>parent</artifactId>
+                <version>${bouncer.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.vpaapi.carto</groupId>
+                <artifactId>parent</artifactId>
+                <version>${carto.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.vpaapi.dapi</groupId>
+                <artifactId>parent</artifactId>
+                <version>${dapi.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.vpaapi.manu</groupId>
+                <artifactId>parent</artifactId>
+                <version>${manu.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
             <dependency>
                 <groupId>com.google.dagger</groupId>
                 <artifactId>dagger</artifactId>
@@ -240,7 +273,7 @@
                 <version>2.3</version>
                 <configuration>
                     <includes>
-                        <include>com.vpaapi:*</include>
+                        <include>com.vpaapi.*:*</include>
                     </includes>
                 </configuration>
             </plugin>
