@@ -7,8 +7,6 @@ import xml.etree.ElementTree as ET
 def parse_arguments(arguments):
     parser = argparse.ArgumentParser()
     parser.add_argument("file", type=str)
-    parser.add_argument("property", type=str)
-
     return parser.parse_args(arguments)
 
 def increment_version(old_version):
@@ -26,11 +24,11 @@ if __name__ == "__main__":
     ET.register_namespace("", MVN_NS)
     tree = ET.parse(arguments.file)
     root = tree.getroot()
-    properties = root.find("{%s}properties" % MVN_NS)
-    my_prop = properties.find("{%s}%s" % (MVN_NS, arguments.property))
+    current_version = root.find("{%s}version" % MVN_NS)
 
+    import pdb; pdb.set_trace() 
     # Increment the version
-    my_prop.text = increment_version(my_prop.text)
+    current_version.text = increment_version(current_version.text)
 
     # Update the saved file
     tree.write(arguments.file)
