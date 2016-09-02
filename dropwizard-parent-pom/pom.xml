@@ -62,31 +62,31 @@
                 <groupId>com.vpaapi.docent</groupId>
                 <artifactId>parent</artifactId>
                 <version>${docent.version}</version>
-                <scope>provided</scope>
+                <optional>true</optional>
             </dependency>
             <dependency>
                 <groupId>com.vpaapi.bouncer</groupId>
                 <artifactId>parent</artifactId>
                 <version>${bouncer.version}</version>
-                <scope>provided</scope>
+                <optional>true</optional>
             </dependency>
             <dependency>
                 <groupId>com.vpaapi.carto</groupId>
                 <artifactId>parent</artifactId>
                 <version>${carto.version}</version>
-                <scope>provided</scope>
+                <optional>true</optional>
             </dependency>
             <dependency>
                 <groupId>com.vpaapi.dapi</groupId>
                 <artifactId>parent</artifactId>
                 <version>${dapi.version}</version>
-                <scope>provided</scope>
+                <optional>true</optional>
             </dependency>
             <dependency>
                 <groupId>com.vpaapi.manu</groupId>
                 <artifactId>parent</artifactId>
                 <version>${manu.version}</version>
-                <scope>provided</scope>
+                <optional>true</optional>
             </dependency>
 
             <dependency>
