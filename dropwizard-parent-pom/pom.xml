@@ -41,7 +41,7 @@
         <carto.version>0.1.2</carto.version>
         <dapi.version>0.1.1</dapi.version>
         <docent.version>0.0.9</docent.version>
-        <manu.version>0.1.0</manu.version>
+        <manu.version>0.1.1</manu.version>
 
         <!-- external project versions -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
