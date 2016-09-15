@@ -38,10 +38,10 @@
             recommended)
         -->
         <bouncer.version>0.1.4</bouncer.version>
-        <carto.version>0.1.4</carto.version>
-        <dapi.version>0.1.1</dapi.version>
+        <carto.version>0.1.6</carto.version>
+        <dapi.version>0.1.2</dapi.version>
         <docent.version>0.0.12</docent.version>
-        <manu.version>0.1.1</manu.version>
+        <manu.version>0.1.2</manu.version>
 
         <!-- external project versions -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
