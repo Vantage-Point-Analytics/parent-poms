@@ -37,10 +37,10 @@
         <!-- internal project versions, use these in dependencies to automatically get latest version (not always
             recommended)
         -->
-        <bouncer.version>0.1.1</bouncer.version>
-        <carto.version>0.1.2</carto.version>
+        <bouncer.version>0.1.4</bouncer.version>
+        <carto.version>0.1.4</carto.version>
         <dapi.version>0.1.1</dapi.version>
-        <docent.version>0.0.9</docent.version>
+        <docent.version>0.0.12</docent.version>
         <manu.version>0.1.1</manu.version>
 
         <!-- external project versions -->
